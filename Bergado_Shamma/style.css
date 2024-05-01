@@ -7,7 +7,7 @@ h1 {
 }
 
 .box {
-  background-color: #e6f0ff;
+  background-color: #a940a8;
   width: 500px;
   height: 300px;
   margin: 20px auto;
@@ -16,14 +16,14 @@ h1 {
 
 #new_items {
   background-color: white;
-  border: 1px solid blue;
+  border: 1px solid rgb(7, 7, 7);
   padding: 8px;
   margin-right: 10px;
   border-radius: 5px;
 }
 
 #add_items {
-  background-color: blue;
+  background-color: rgb(210, 122, 189);
   color: white;
   border: none;
   padding: 8px 16px;
@@ -32,7 +32,7 @@ h1 {
 }
 
 #add_items:hover {
-  background-color: #0066cc;
+  background-color: #f4afda;
 }
 
 #display_items {
@@ -43,5 +43,5 @@ h1 {
 
 #display_items li {
   margin-bottom: 5px;
-  color: blue;
+  color: rgb(207, 130, 219);
 }
