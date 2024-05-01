@@ -1,47 +1,49 @@
-
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 20px;
+  background-color: #f5f2e6;
 }
 
 .box {
-  border: 1px solid #111010;
+  border: 1px solid #d7ccc8;
   padding: 20px;
   border-radius: 5px;
   width: 400px;
   margin: 0 auto;
+  background-color: #fffbeb;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
   text-align: center;
   margin-bottom: 15px;
+  color: #665033;
 }
 
-/* Form styles */
 form {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
 }
 
 #new_items {
   width: 250px;
   padding: 10px;
-  border: 1px solid #0f0f0f;
+  border: 1px solid #d7ccc8;
   border-radius: 5px;
   font-size: 16px;
+  color: #665033;
 }
 
 #add_items {
   padding: 10px 20px;
-  background-color: #f25eb7;
+  background-color: #997a50;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
-
 
 #display_items {
   list-style: none;
@@ -50,17 +52,17 @@ form {
 }
 
 #display_items li {
+  margin-left: 0;
+  width: 100%; 
   padding: 10px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #d7ccc8;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #f0e6d8;
+  color: #665033;
 }
 
 #display_items li:last-child {
   border-bottom: none;
-}
-
-.error {
-  border: 1px solid red;
 }
