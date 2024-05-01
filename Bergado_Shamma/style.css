@@ -7,7 +7,7 @@ h1 {
 }
 
 .box {
-  background-color: #a940a8;
+  background-color: #72a5e7;
   width: 500px;
   height: 300px;
   margin: 20px auto;
@@ -23,7 +23,7 @@ h1 {
 }
 
 #add_items {
-  background-color: rgb(210, 122, 189);
+  background-color: rgb(58, 63, 204);
   color: white;
   border: none;
   padding: 8px 16px;
@@ -32,7 +32,7 @@ h1 {
 }
 
 #add_items:hover {
-  background-color: #f4afda;
+  background-color: #6f80c6;
 }
 
 #display_items {
@@ -43,5 +43,5 @@ h1 {
 
 #display_items li {
   margin-bottom: 5px;
-  color: rgb(207, 130, 219);
+  color: rgb(3, 3, 3);
 }
