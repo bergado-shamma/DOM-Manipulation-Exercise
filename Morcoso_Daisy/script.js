@@ -1,28 +1,23 @@
 function addNewItemToList() {
-    const newItemInput = document.querySelector('#new_items');
+    const newItemInput = document.querySelector('#new_items'); 
     const itemList = document.querySelector('#display_items');
-  
     const newItemText = newItemInput.value.trim();
   
+    
     if (!newItemText) {
-      newItemInput.classList.add('error'); 
       alert('Whoops! Please enter an item to add to the list.');  
-      newItemInput.focus(); 
+      newItemInput.focus();  
       return;  
     }
   
-   
+    
     const newListItem = document.createElement('li');
     newListItem.textContent = newItemText;
-    newListItem.id = `item-${Date.now()}`;  
   
    
     itemList.appendChild(newListItem);
   
-   
+    
     newItemInput.value = '';
-  
-   
-    newItemInput.classList.remove('error');
   }
   
